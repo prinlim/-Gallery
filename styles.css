@@ -1,0 +1,53 @@
+html{
+background-image: url("https://i.pinimg.com/originals/d8/95/c7/d895c768c91a29bc8de226f4c51fbaee.jpg");
+    background-repeat: no-repeat;
+  background-size: 1400px 1000px;
+    font-family: 'DotGothic16', sans-serif;
+}
+.image-container {
+    display: inline-block;
+    text-align: center; 
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    margin:10px;
+    height: 270px;
+width:270px;
+    /* add an outline around each picture */
+    border: 3px double aliceblue;
+    border-radius:50px;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 15px;
+}
+body{
+    text-align:center;
+    
+    color:white;
+}
+button{
+    font-family: 'DotGothic16', sans-serif;
+}
+input{
+    font-family: 'DotGothic16', sans-serif;
+
+}
